@@ -1,0 +1,53 @@
+SELECT 'DROP TABLE IF EXISTS temptablesmo.' || tablename || ' CASCADE;' 
+FROM pg_tables 
+WHERE schemaname = 'temptablesmo';
+
+
+DROP TABLE IF EXISTS temptablesmo.app_users_orders_agg CASCADE;
+DROP TABLE IF EXISTS temptablesmo.winback_order_hist CASCADE;
+DROP TABLE IF EXISTS temptablesmo.cancel_to_winback_hist CASCADE;
+DROP TABLE IF EXISTS temptablesmo.beginner_cancel_carts CASCADE;
+DROP TABLE IF EXISTS temptablesmo.app_users CASCADE;
+DROP TABLE IF EXISTS temptablesmo.max_winback_date CASCADE;
+DROP TABLE IF EXISTS temptablesmo.max_winback_cancel CASCADE;
+DROP TABLE IF EXISTS temptablesmo.platform_logins_app_users CASCADE;
+DROP TABLE IF EXISTS temptablesmo.app_users_orders CASCADE;
+DROP TABLE IF EXISTS temptablesmo.jan_cohort_platform CASCADE;
+DROP TABLE IF EXISTS temptablesmo.jan_cohort CASCADE;
+DROP TABLE IF EXISTS temptablesmo.jan_cohort_orders CASCADE;
+DROP TABLE IF EXISTS temptablesmo.feb_cohort_platform CASCADE;
+DROP TABLE IF EXISTS temptablesmo.feb_cohort CASCADE;
+DROP TABLE IF EXISTS temptablesmo.feb_cohort_orders CASCADE;
+DROP TABLE IF EXISTS temptablesmo.mk_menus_tmp CASCADE;
+DROP TABLE IF EXISTS temptablesmo.plantry_purchases CASCADE;
+DROP TABLE IF EXISTS temptablesmo.plantry_carts CASCADE;
+DROP TABLE IF EXISTS temptablesmo.session_distributions CASCADE;
+DROP TABLE IF EXISTS temptablesmo.active_veteran_app_users CASCADE;
+DROP TABLE IF EXISTS temptablesmo.carts_612 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.cancels_612 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.suspends_612 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.pauses_612 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.new_612_stg CASCADE;
+DROP TABLE IF EXISTS temptablesmo.new_612 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.new_subs_612 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.winbacks_612 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.winbacks_612_fn CASCADE;
+DROP TABLE IF EXISTS temptablesmo.carts_619 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.cancels_619 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.suspends_619 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.pauses_619 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.new_subs_619 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.winbacks_619 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.new_customers_619 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.rate_base_619 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.new_customers_612 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.rate_base_612 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.next_rate_base_612 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.april_subscribers CASCADE;
+DROP TABLE IF EXISTS temptablesmo.april_session_distributions CASCADE;
+DROP TABLE IF EXISTS temptablesmo.copy_menu_items CASCADE;
+DROP TABLE IF EXISTS temptablesmo.menu_items_1037 CASCADE;
+DROP TABLE IF EXISTS temptablesmo.cancel_order_hist CASCADE;
+DROP TABLE IF EXISTS temptablesmo.max_cancel_date CASCADE;
+DROP TABLE IF EXISTS temptablesmo.cancelled_users CASCADE;
+DROP TABLE IF EXISTS temptablesmo.procedurelog CASCADE;
